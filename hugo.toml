@@ -1,7 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://agile-bordeaux.github.io/'
 languageCode = 'fr-FR'
 title = 'Agile Bordeaux'
 theme = 'ananke'
+
+# On garde ces options pour la sécurité des chemins relatifs
+canonifyURLs = true
+relativeURLs = true
 
 [params]
   # Ananke affichera l'image si ce paramètre est présent dans le MD
