@@ -1,2 +1,12 @@
-env.bat
+# Répertoire de sortie
+public/
+resources/
+
+# Fichiers temporaires et logs
+hugo_stats.json
 .hugo_build.lock
+
+# OS spécifiques
+env.bat
+.DS_Store
+Thumbs.db
